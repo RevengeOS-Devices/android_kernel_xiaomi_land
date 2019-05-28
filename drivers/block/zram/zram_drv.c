@@ -1281,8 +1281,8 @@ static int create_device(struct zram *zram, int device_id)
 
 	strlcpy(zram->compressor, default_compressor, sizeof(zram->compressor));
 	zram->meta = NULL;
-	zram->max_comp_streams = 1;
-	return 0;
+	zram->max_comp_streams = 4;
+
 
 out_free_queue:
 	blk_cleanup_queue(queue);
