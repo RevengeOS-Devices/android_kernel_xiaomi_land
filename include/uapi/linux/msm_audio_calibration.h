@@ -44,9 +44,6 @@
 							217, void *)
 #define AUDIO_SET_RTAC_AFE_CAL		_IOWR(CAL_IOCTL_MAGIC, \
 							218, void *)
-#define MAX_SIDETONE_IIR_DATA_SIZE	220
-#define MAX_NO_IIR_FILTER_STAGE		10
-
 /* ASUS_BSP Paul +++ */
 #define AUDIO_SET_AUDIOWIZARD_FORCE_PRESET	_IOWR(CAL_IOCTL_MAGIC, \
 							221, void *)
